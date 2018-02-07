@@ -4,6 +4,95 @@ http://www.freecsstemplates.org
 Released for free under a Creative Commons Attribution 2.5 License
 */
 
+body {
+	margin: 20px 0 0 0;
+	padding: 0;
+	background: #E6E6E6 url(images/img01.gif);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #666666;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	font-weight: normal;
+	color: #000000;
+}
+
+h1 {
+	font-size: 197%;
+}
+
+h2 {
+	font-size: 167%;
+}
+
+h3 {
+	font-size: 100%;
+	font-weight: bold;
+}
+
+p, ol, ul {
+	line-height: 180%;
+}
+
+p {
+}
+
+ol {
+	margin-left: 0;
+	padding-left: 0;
+	list-style-position: inside;
+}
+
+ul {
+	margin-left: 0;
+	padding-left: 0;
+	list-style: none;
+}
+
+ul li {
+	padding-left: 15px;
+	background: url(images/img07.gif) no-repeat 0px 7px;
+}
+
+blockquote {
+	margin: 0;
+	padding-left: 20px;
+	font-style: italic;
+}
+
+blockquote * {
+	line-height: normal;
+}
+
+a {
+	color: #569400;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+img {
+	border: none;
+}
+
+img.left {
+	float: left;
+	margin: 5px 15px 0 0;
+}
+
+img.right {
+	float: right;
+	margin: 0 0 0 15px;
+}
+
+hr {
+	display: none;
+}
+
+
 
 /* Menu */
 
@@ -84,6 +173,14 @@ Released for free under a Creative Commons Attribution 2.5 License
 	background: url(images/img05.gif) repeat-x;
 	border: 1px solid #E6E6E6;
 }
+#content span{
+	font-size:24px;font-weight:700px;
+}
+
+.left{
+	width: 120px;
+	height: 160; 
+}
 
 .twocols {
 }
@@ -114,7 +211,7 @@ Released for free under a Creative Commons Attribution 2.5 License
 .boxed {
 }
 
-.boxed .title {
+.title {
 	height: 29px;
 	margin: 0;
 	padding: 12px 0 0 20px;
@@ -125,7 +222,7 @@ Released for free under a Creative Commons Attribution 2.5 License
 	color: #FFFFFF;
 }
 
-.boxed .content {
+.content {
 	padding: 20px;
 	background: url(images/img05.gif) repeat-x;
 }
@@ -134,45 +231,74 @@ Released for free under a Creative Commons Attribution 2.5 License
 	margin: 0;
 }
 
-.boxed p, .boxed ul, .boxed ol {
+.list {
 	margin: 0;
 	padding: 0;
 	list-style: none;
 	line-height: normal;
 }
 
-.boxed ul {
-}
 
-.boxed ul li {
+.list li {
 	padding: 10px 15px;
 	background-position: 0 13px;
 	border-top: 1px solid #CFCFCF;
 }
 
-.boxed ul li.first {
+.first {
 	border: none;
 }
+#end{
+	clear: both;
+}
+.secTitle{
+	
+	
+}
 
+#iText{
+	font-style: italic;
+	font-size: 12px;
+	text-align: left;
+}
 /* Search */
 
 #search {
 }
 
-#search form {
+#txtBox{
+	width: 180px;
+}
+#searchform {
 	margin: 0;
 	padding: 0;
 }
 
-#search fieldset {
-	margin: 0;
-	padding: 0;
-	border: none;
-}
+
 
 #search p {
 	margin: 0;
 	font-size: 85%;
+}
+
+.footer{
+	width: 740px;
+	margin: 0 auto;
+	height: 100px;
+	padding: 20px 0 0 0;
+	background: url(images/img09.gif) repeat-x;
+}
+.footer p{
+	float:left;
+	margin: 0;
+	line-height: normal;
+	font-size: 85%;
+}
+.footer a{
+	color: #666666;
+}
+#info{
+	float:right;
 }
 
 
